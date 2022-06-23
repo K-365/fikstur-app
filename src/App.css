@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  background-color: springgreen;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.content-container {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.switch {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.sw-ligler {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: crimson;
+  color: white;
+  border-right: 5px solid white;
+  height: 50px;
+  cursor: pointer;
+}
+
+.sw-fikstur {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: crimson;
+  color: white;
+  height: 50px;
+  cursor: pointer;
+}
+
+.lig-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.lig-div {
+  width: 200px;
+}
+
+#australian-a-league {
+  background-color: rgb(0, 0, 0);
+}
+
+.lig-div:hover {
+  transform: scale(1.3);
+}
+
+.fikstur-sonuc {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  flex-direction: column;
+}
+
+.rank-div {
+  margin: 20px;
+}
+
+.logos {
+  width: 30px;
+}
+
+.footer {
+  width: 100%;
+  height: 100%;
+  background-color: springgreen;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
